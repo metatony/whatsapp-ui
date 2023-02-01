@@ -14,7 +14,7 @@ class MobileScreenLayout extends StatelessWidget {
           backgroundColor: appBarColor,
           elevation: 0,
           title: const Text(
-            'Whatsapp',
+            'Chats',
             style: TextStyle(
               color: Colors.grey,
               fontSize: 20,
