@@ -8,6 +8,8 @@ import 'package:whatsappclone/screens/web_screen_layout.dart';
 
 void main() {
   runApp(DevicePreview(
+    
+    
     enabled: !kReleaseMode,
     builder: (BuildContext context) => const MyApp(),
   ));
