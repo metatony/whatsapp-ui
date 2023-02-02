@@ -4,6 +4,8 @@ import 'package:whatsappclone/widgets/chat_list.dart';
 import 'package:whatsappclone/widgets/contact_list.dart';
 import 'package:whatsappclone/widgets/web_profile_bar.dart';
 import 'package:whatsappclone/widgets/web_search_bar.dart';
+import "package:flutter_feather_icons/flutter_feather_icons.dart";
+
 
 import '../widgets/web_chat_appbar.dart';
 
@@ -62,12 +64,12 @@ class WebScreenLayout extends StatelessWidget {
                   children: [
                     IconButton(
                       onPressed: () {},
-                      icon: const Icon(Icons.emoji_emotions_outlined),
+                      icon: const Icon(FeatherIcons.smile),
                       color: Colors.grey,
                     ),
                     IconButton(
                       onPressed: () {},
-                      icon: const Icon(Icons.attach_file),
+                      icon: const Icon(FeatherIcons.paperclip),
                       color: Colors.grey,
                     ),
                     Expanded(
@@ -91,7 +93,7 @@ class WebScreenLayout extends StatelessWidget {
                     ),
                     IconButton(
                       onPressed: () {},
-                      icon: const Icon(Icons.mic),
+                      icon: const Icon(FeatherIcons.mic),
                       color: Colors.grey,
                     ),
                   ],

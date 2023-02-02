@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:whatsappclone/colors.dart';
 import 'package:whatsappclone/widgets/chat_list.dart';
+import "package:flutter_feather_icons/flutter_feather_icons.dart";
+
 
 import '../info.dart';
 
@@ -17,12 +19,12 @@ class MobileChatScreen extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {},
-            icon: const Icon(Icons.video_call),
+            icon: const Icon(FeatherIcons.video),
             color: Colors.grey,
           ),
           IconButton(
             onPressed: () {},
-            icon: const Icon(Icons.call),
+            icon: const Icon(FeatherIcons.phone),
             color: Colors.grey,
           ),
         ],
@@ -47,7 +49,7 @@ class MobileChatScreen extends StatelessWidget {
               children: [
                 IconButton(
                   onPressed: () {},
-                  icon: const Icon(Icons.emoji_emotions_outlined),
+                  icon: const Icon(FeatherIcons.smile),
                   color: Colors.grey,
                 ),
                 Expanded(
@@ -71,12 +73,12 @@ class MobileChatScreen extends StatelessWidget {
                 ),
                 IconButton(
                   onPressed: () {},
-                  icon: const Icon(Icons.attach_file),
+                  icon: const Icon(FeatherIcons.paperclip),
                   color: Colors.grey,
                 ),
                 IconButton(
                   onPressed: () {},
-                  icon: const Icon(Icons.mic),
+                  icon: const Icon(FeatherIcons.mic),
                   color: Colors.grey,
                 ),
               ],

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsappclone/colors.dart';
+import "package:flutter_feather_icons/flutter_feather_icons.dart";
 
 class WebProfileBar extends StatelessWidget {
   const WebProfileBar({super.key});
@@ -28,14 +29,14 @@ class WebProfileBar extends StatelessWidget {
           IconButton(
             onPressed: () {},
             icon: const Icon(
-              Icons.comment,
+              FeatherIcons.messageCircle,
               color: Colors.grey,
             ),
           ),
           IconButton(
             onPressed: () {},
             icon: const Icon(
-              Icons.more_vert,
+              FeatherIcons.moreVertical,
               color: Colors.grey,
             ),
           ),

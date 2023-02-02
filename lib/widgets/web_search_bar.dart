@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsappclone/colors.dart';
+import "package:flutter_feather_icons/flutter_feather_icons.dart";
 
 class WebSearchBar extends StatelessWidget {
   const WebSearchBar({super.key});
@@ -24,7 +25,7 @@ class WebSearchBar extends StatelessWidget {
           prefixIcon: const Padding(
             padding: EdgeInsets.symmetric(horizontal: 20),
             child: Icon(
-              Icons.search,
+              FeatherIcons.search,
               size: 20,
             ),
           ),
