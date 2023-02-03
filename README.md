@@ -1,3 +1,3 @@
-# whatsappclone
+# whatsappclone - flutter
 
-This is a responsive flutter Whatsapp UI application for desktop and mobile .
+This is a responsive Whatsapp UI application for desktop and mobile .
