@@ -22,7 +22,7 @@ class WebProfileBar extends StatelessWidget {
         children: [
           const CircleAvatar(
             backgroundImage: NetworkImage(
-                'https://www.socialketchup.in/wp-content/uploads/2020/05/fi-vill-JOHN-DOE.jpg'),
+                'https://images.unsplash.com/photo-1517598024396-46c53fb391a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'),
             radius: 20,
           ),
           const Spacer(),
