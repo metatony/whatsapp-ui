@@ -24,7 +24,8 @@ class MobileChatScreen extends StatelessWidget {
           ),
           IconButton(
             onPressed: () {},
-            icon: const Icon(FeatherIcons.phone),
+            icon: const Icon(FeatherIcons.phone
+            ),
             color: Colors.grey,
           ),
         ],

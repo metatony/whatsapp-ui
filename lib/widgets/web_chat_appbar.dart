@@ -18,7 +18,7 @@ class WebChatAppBar extends StatelessWidget {
         children: [
           const CircleAvatar(
             backgroundImage: NetworkImage(
-                'https://uploads.dailydot.com/2018/10/olli-the-polite-cat.jpg?auto=compress%2Cformat&ixlib=php-3.3.0'),
+                'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60'),
             radius: 30,
           ),
           SizedBox(
